@@ -4,11 +4,34 @@
    SDI 1409
    Project 3
 */
+// variables
+var myApartment = "my building";
+var myFirstDestination = "subway station"; // string data type
+var mySecondDestination = "\"connecting\" bus";
+var myThirdDestination = "work";
+var numOfMilesToSubway = .5; // number data type
+var numOfMilesToWork = 2.5; // number data type
+var drive = false; // Boolean type
+var train = true;
+var bus = false;
+var skateboard = true;
+var coffee = true;
+var workFirst = false;
 
 // global variables
 var myCars = ["Honda", "Subaru", "Ford", "Buick", "Chevrolet"];
 myCars[5] = "Toyota";
 
+// outputs
+console.log("I must decide to drive, or go to the " + myFirstDestination + ".");
+console.log("I run out of " + myApartment + ".");
+console.log("The subway is about " + numOfMilesToSubway + " miles from my house.");
+console.log("It is " + train + " that i take the train to my " + mySecondDestination + ".");
+console.log("It would be " + bus + " to think the bus would be quicker rather then to skateboard.");
+console.log("So, it is " + skateboard + " that I skateboard, because it's only " + numOfMilesToWork + " miles to my " + myThirdDestination + ".");
+console.log("When I arive, it is " + workFirst + " that I go to " + myThirdDestination + " first.");
+console.log("I decide to get some coffee because I have time, which is " + coffee + ".");
+console.log("Afterwards I go to " + myThirdDestination + ".");
 
 // functions
 var myProcedure = function(argArray) {
@@ -27,7 +50,7 @@ var myProcedure = function(argArray) {
     
 };    
     
-var jsonFunction = function() {
+/*var jsonFunction = function() {
      
     for (var firstKey in jsonData.goodGuys) {
         
@@ -54,7 +77,7 @@ var jsonFunction = function() {
 */  
 
 // main code
-jsonFunction();
+//jsonFunction();
 
 //myProcedure(myCars);
 //console.log(myCars);
